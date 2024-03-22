@@ -8,14 +8,15 @@ pose = mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5)
 # Inicializa MediaPipe Drawing para dibujar las posturas.
 mp_drawing = mp.solutions.drawing_utils
 
-# Captura video de la cámara web.
-cap = cv2.VideoCapture(0)  # Cambia el 0 por 1 o 2 si tu cámara no es la principal.
+# Abre el archivo de video.
+video_path = 'ruta/a/tu/video.mp4'  # Cambia esto por la ruta a tu video.
+cap = cv2.VideoCapture(video_path)
 
 while cap.isOpened():
     success, image = cap.read()
     if not success:
-        print("No se pudo acceder a la cámara.")
-        continue
+        print("Fin del video o error al leer el archivo.")
+        break
 
     # Convierte la imagen capturada a RGB.
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
