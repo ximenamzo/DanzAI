@@ -8,6 +8,8 @@ pose = mp_pose.Pose(static_image_mode=True, min_detection_confidence=0.5)
 
 # Inicializa MediaPipe Drawing.
 mp_drawing = mp.solutions.drawing_utils
+# Para personalizar estilo de salida
+mp_drawing_styles = mp.solutions.drawing_styles
 
 
 def process_image(image_path):
@@ -22,7 +24,16 @@ def process_image(image_path):
     # Dibuja las anotaciones en la imagen.
     annotated_image = image.copy()
     if results.pose_landmarks:
-        mp_drawing.draw_landmarks(annotated_image, results.pose_landmarks, mp_pose.POSE_CONNECTIONS)
+        #mp_drawing.draw_landmarks(annotated_image, results.pose_landmarks, mp_pose.POSE_CONNECTIONS)
+
+        # Aquí se configura el color de las líneas a azul (BGR: 255, 0, 0) y grosor 2, y se desactivan los puntos.
+        mp_drawing.draw_landmarks(
+            annotated_image,
+            results.pose_landmarks,
+            mp_pose.POSE_CONNECTIONS,
+            landmark_drawing_spec=None,  # Desactiva los puntos
+            connection_drawing_spec=mp_drawing.DrawingSpec(color=(255, 0, 0), thickness=2, circle_radius=0)
+        )
 
     # Muestra la imagen original y la anotada.
     plt.figure(figsize=(10, 10))
@@ -38,7 +49,7 @@ def process_image(image_path):
 
 
 # Ruta a tu imagen
-image_path = 'ruta/a/tu/imagen.jpg'
+image_path = 'images/grand_plie_tercera.jpg'
 
 # Procesa la imagen
 process_image(image_path)

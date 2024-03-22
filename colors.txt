@@ -1,0 +1,83 @@
+0. nariz
+1. izq ojo int
+2. izq ojo
+3. izq ojo ext
+4. der ojo int
+5. der ojo
+6. der ojo ext
+7. izq oreja
+8. der oreja
+9. izq boca
+10. der boca
+
+11. izq hombro
+12. der hombro
+13. izq codo
+14. der codo
+15. izq muñeca
+16. der muñeca
+17. izq meñique
+18. der meñique
+19. izq indice
+20. der indice
+21. izq pulgar
+22. der pulgar
+
+23. izq cadera
+24. der cadera
+25. izq rodilla
+26. der rodilla
+27. izq tobillo
+28. der tobillo
+29. izq talon
+30. der talon
+31. izq punta pie
+32. der punta pie
+
+
+
+
+
+
+
+
+
+
+0. nariz
+
+1. izq ojo int
+2. izq ojo
+3. izq ojo ext
+
+4. der ojo int
+5. der ojo
+6. der ojo ext
+
+7. izq oreja
+8. der oreja
+9. izq boca
+10. der boca
+
+11. izq hombro
+12. der hombro
+13. izq codo
+14. der codo
+15. izq muñeca
+16. der muñeca
+17. izq meñique
+18. der meñique
+19. izq indice
+20. der indice
+21. izq pulgar
+22. der pulgar
+
+23. izq cadera
+24. der cadera
+25. izq rodilla
+26. der rodilla
+27. izq tobillo
+28. der tobillo
+29. izq talon
+30. der talon
+31. izq punta pie
+32. der punta pie
