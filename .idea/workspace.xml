@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d51d8bf3-b3ca-4fca-ba18-0efc515ff1cc" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/colors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customColor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captura.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/danzAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/danzAI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getAngles.py" beforeDir="false" afterPath="$PROJECT_DIR$/getAngles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ximen/PycharmProjects/danzAI",
+    "last_opened_file_path": "/home/xime/PycharmProjects/DanzAI",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
