@@ -2,12 +2,10 @@ import mediapipe as mp
 import cv2
 from matplotlib import pyplot as plt
 
-# Inicializa MediaPipe Pose.
 mp_pose = mp.solutions.pose
 pose = mp_pose.Pose(static_image_mode=True, min_detection_confidence=0.5)
 mp_drawing = mp.solutions.drawing_utils
 
-# Define las conexiones del lado derecho e izquierdo del cuerpo con índices de landmarks.
 right_side_connections = [
     (mp_pose.PoseLandmark.RIGHT_SHOULDER.value, mp_pose.PoseLandmark.RIGHT_ELBOW.value),
     (mp_pose.PoseLandmark.RIGHT_ELBOW.value, mp_pose.PoseLandmark.RIGHT_WRIST.value),
@@ -36,11 +34,9 @@ def process_image(image_path):
     results = pose.process(image_rgb)
 
     if results.pose_landmarks:
-        # Extrae las coordenadas de landmarks
         landmarks = [(int(landmark.x * image.shape[1]), int(landmark.y * image.shape[0]))
                      for landmark in results.pose_landmarks.landmark]
 
-        # Dibuja las conexiones personalizadas
         draw_custom_connections(image, landmarks, right_side_connections, (255, 0, 0))  # Rojo para el lado derecho
         draw_custom_connections(image, landmarks, left_side_connections, (0, 0, 255))  # Azul para el lado izquierdo
 
@@ -49,5 +45,5 @@ def process_image(image_path):
     plt.show()
 
 
-image_path = 'images/tendu_second.png'
+image_path = 'images/primera_posicionn.png'
 process_image(image_path)

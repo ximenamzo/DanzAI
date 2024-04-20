@@ -1,3 +1,11 @@
+Morado (255, 0, 255)
+Rojo (255, 0, 0)
+Naranja (255, 165, 0)
+Amarillo (255, 255, 0)
+Azul (0, 0, 255)
+Cian (0, 255, 255)
+Verde (0, 255, 0)
+
 0. nariz
 1. izq ojo int
 2. izq ojo
@@ -35,6 +43,8 @@
 32. der punta pie
 
 
+# ANGULOS
+
 
 
 
@@ -57,6 +67,9 @@
 8. der oreja
 9. izq boca
 10. der boca
+
+-- Todo morado --
+
 
 11. izq hombro
 12. der hombro
