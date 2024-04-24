@@ -1,41 +1,79 @@
 import mediapipe as mp
-import cv2
+import cv2, math
 from matplotlib import pyplot as plt
+from db import *
 
 mp_pose = mp.solutions.pose
 pose = mp_pose.Pose(static_image_mode=True, min_detection_confidence=0.5)
-
 mp_drawing = mp.solutions.drawing_utils
-mp_drawing_styles = mp.solutions.drawing_styles
+
+def draw_custom_connections(image, landmarks, connections):
+    for connection, color in connections:
+        start_idx, end_idx = connection
+        if start_idx < len(landmarks) and end_idx < len(landmarks):
+            cv2.line(image, landmarks[start_idx], landmarks[end_idx], color, 5)
 
 
-def process_image(image_path):
-    image = cv2.imread(image_path)
-    image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+def draw_center_line(img, landmarks, hip_left, hip_right, knee, color, thickness=5):
+    # Calcula el punto medio de la cadera
+    hip_center = ((landmarks[hip_left][0] + landmarks[hip_right][0]) // 2,
+                  (landmarks[hip_left][1] + landmarks[hip_right][1]) // 2)
 
-    results = pose.process(image_rgb)
+    # Dibuja una línea desde el punto medio de la cadera hasta la rodilla
+    cv2.line(img, hip_center, landmarks[knee], color, thickness)
 
-    annotated_image = image.copy()
+
+# Función para calcular los ángulos
+def calculate_angle(point1, point2, point3):
+    # Extracción de coordenadas
+    x1, y1 = point1
+    x2, y2 = point2
+    x3, y3 = point3
+
+    # Calculo de longitudes de los lados del triángulo
+    a = math.sqrt((x2 - x3) ** 2 + (y2 - y3) ** 2)
+    b = math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
+    c = math.sqrt((x1 - x3) ** 2 + (y1 - y3) ** 2)
+
+    # Ley de Coseno
+    angle = math.acos((a ** 2 + b ** 2 - c ** 2) / (2 * a * b))
+    # Conversión a grados
+    angle = math.degrees(angle)
+    return angle
+
+
+# Dibujado de líneas
+def process_image(img_path):
+    img = cv2.imread(img_path)
+    img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    results = pose.process(img_rgb)
+
     if results.pose_landmarks:
-        mp_drawing.draw_landmarks(
-            annotated_image,
-            results.pose_landmarks,
-            mp_pose.POSE_CONNECTIONS,
-            landmark_drawing_spec=None,  # Desactiva los puntos
-            connection_drawing_spec=mp_drawing.DrawingSpec(color=(255, 0, 0), thickness=2, circle_radius=0)
-        )
+        # Extracción de coordenadas de landmarks
+        # lm = landmarks
+        lm = [(int(landmark.x * img.shape[1]), int(landmark.y * img.shape[0]))
+                     for landmark in results.pose_landmarks.landmark]
+        draw_custom_connections(img, lm, custom_connections)
 
-    plt.figure(figsize=(10, 10))
-    plt.subplot(1, 2, 1)
-    plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
-    plt.title('Original Image')
+        # Ángulos
+        right_armpit_angle = calculate_angle(lm[CODO_DER.value],lm[HOMBRO_DER.value],lm[CADERA_DER.value])
 
-    plt.subplot(1, 2, 2)
-    plt.imshow(cv2.cvtColor(annotated_image, cv2.COLOR_BGR2RGB))
-    plt.title('Image with Pose')
+        # Salida en terminal
+        print(f"Ángulo de la axila derecha: {right_armpit_angle:.2f} grados")
 
+        # Configura los parámetros para el texto
+        font = cv2.FONT_HERSHEY_SIMPLEX
+        font_scale = 1
+        color = (0, 0, 0)  # Color negro
+        thickness = 2
+
+        # Escribe los ángulos en la imagen
+        cv2.putText(img, str(round(right_armpit_angle, 2)), lm[HOMBRO_DER.value], font, font_scale, color, thickness)
+
+    plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+    plt.axis('off')
     plt.show()
 
 
-image_path = 'images/grand_plie_tercera.jpg'
+image_path = 'images/segunda_posicionn.png'
 process_image(image_path)

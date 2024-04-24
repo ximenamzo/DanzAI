@@ -50,7 +50,7 @@ PUNTA_PIE_DER = point.RIGHT_FOOT_INDEX
 # BGR
 morado = (255, 0, 255)
 rojo = (0, 0, 255)
-amarillo = (0, 255, 255)
+amarillo = (37, 229, 255)
 naranja = (0, 165, 255)
 azul = (255, 0, 0)
 cian = (255, 255, 0)
