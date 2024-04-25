@@ -4,47 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d51d8bf3-b3ca-4fca-ba18-0efc515ff1cc" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/danzai_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_angles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customFullColor.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_full_color.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customMiddleColor.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_middle_color.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/danzai_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getAngles.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/arabesque.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/assemble.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/attitude.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ballet-8-positions-of-the-body-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/battement_second.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cou_de_pied.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cuarta_posicion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/grand_plie_segunda.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/grand_plie_tercera.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jette.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/passe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/passee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/plie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/primera_posicion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/primera_posicionn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/quinta_posicion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/releve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/salto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/segunda_posicion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/segunda_posicionn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tendu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tendu_derriere.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tendu_devant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tendu_devant_perfil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tendu_primera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tendu_second.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tendu_seconte.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tercera_posicion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testVideo.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_video.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube to mp3.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtube_to_mp3.py" afterDir="false" />
-    </list>
+    <list default="true" id="d51d8bf3-b3ca-4fca-ba18-0efc515ff1cc" name="Changes" comment="first" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
