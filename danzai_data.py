@@ -1,5 +1,5 @@
 #falta el turn out / rotacion
-# variasbles temporales con los nombres... if secuencia de poses, entonces es un paso
+# variables temporales con los nombres... if secuencia de poses, entonces es un paso
 
 import mediapipe as mp
 import cv2

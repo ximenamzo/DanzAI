@@ -6,6 +6,26 @@ Azul (0, 0, 255)
 Cian (0, 255, 255)
 Verde (0, 255, 0)
 
+
+# Á N G U L O S
+Cuello izq
+Cuello der
+Axila der
+Axila izq
+Codo izq
+Codo der
+Muñeca izq
+Muñeca der
+Ingle izq
+Ingle derecha
+Rodilla izq
+Rodilla der
+Empeine izq
+Empeine der
+
+
+
+
 0. nariz
 1. izq ojo int
 2. izq ojo
@@ -41,13 +61,6 @@ Verde (0, 255, 0)
 30. der talon
 31. izq punta pie
 32. der punta pie
-
-
-# ANGULOS
-
-
-
-
 
 
 
