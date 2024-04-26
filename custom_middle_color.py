@@ -45,5 +45,5 @@ def process_image(image_path):
     plt.show()
 
 
-image_path = 'images/primera_posicionn.png'
+image_path = 'images/pose/primera_posicionn.png'
 process_image(image_path)

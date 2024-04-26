@@ -1,9 +1,7 @@
-#falta el turn out / rotacion
-# variables temporales con los nombres... if secuencia de poses, entonces es un paso
-
 import mediapipe as mp
-import cv2
-from matplotlib import pyplot as plt
+
+# falta el turn out / rotacion
+# variables temporales con los nombres... if secuencia de poses, entonces es un paso
 
 mp_pose = mp.solutions.pose
 pose = mp_pose.Pose(static_image_mode=True, min_detection_confidence=0.5)
@@ -100,3 +98,21 @@ custom_connections = [
     ((TOBILLO_IZQ.value, PUNTA_PIE_IZQ.value), verde),  # 27-31 / Verde
     ((TALON_IZQ.value, PUNTA_PIE_IZQ.value), verde),  # 29-31 / Verde
 ]
+
+joints = {
+    'cuello_izq': 'cuello',
+    'cuello_der': 'cuello',
+    'axila_izq': HOMBRO_IZQ.value,
+    'axila_der': HOMBRO_DER.value,
+    'codo_izq': CODO_IZQ.value,
+    'codo_der': CODO_DER.value,
+    'muñeca_izq': MUNECA_IZQ.value,
+    'muñeca_der': MUNECA_DER.value,
+    'ingles': 'ingle',
+    'ingle_izq': CADERA_IZQ.value,
+    'ingle_der': CADERA_DER.value,
+    'rodilla_izq': RODILLA_IZQ.value,
+    'rodilla_der': RODILLA_DER.value,
+    'empeine_izq': TOBILLO_IZQ.value,
+    'empeine_der': TOBILLO_DER.value
+}

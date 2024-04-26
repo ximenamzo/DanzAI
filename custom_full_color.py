@@ -37,5 +37,5 @@ def process_image(image_path):
     plt.show()
 
 
-image_path = 'images/grand_plie_tercera.jpg'
+image_path = 'images/pose/grand_plie_tercera.jpg'
 process_image(image_path)
