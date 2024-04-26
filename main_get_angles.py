@@ -1,14 +1,5 @@
-import mediapipe as mp
-import cv2, math
-from matplotlib import pyplot as plt
 from danzai_data import *
-from screeninfo import get_monitors
 from danzai_functions import *
-
-
-mp_pose = mp.solutions.pose
-pose = mp_pose.Pose(static_image_mode=True, min_detection_confidence=0.5)
-mp_drawing = mp.solutions.drawing_utils
 
 
 # Dibujado con color personalizado
@@ -33,20 +24,7 @@ def process_image(img_path):
         draw_custom_connections(img, lm, custom_connections)
 
         # Ángulos - Cálculo
-        cuello_izq = calculate_angle(lm[CODO_DER.value],lm[HOMBRO_DER.value],lm[CADERA_DER.value])
-        cuello_der = calculate_angle(lm[CODO_DER.value],lm[HOMBRO_DER.value],lm[CADERA_DER.value])
-        axila_izq = calculate_angle(lm[CODO_DER.value],lm[HOMBRO_DER.value],lm[CADERA_DER.value])
         axila_der = calculate_angle(lm[CODO_DER.value],lm[HOMBRO_DER.value],lm[CADERA_DER.value])
-        codo_izq = calculate_angle(lm[CODO_DER.value],lm[HOMBRO_DER.value],lm[CADERA_DER.value])
-        codo_der = calculate_angle(lm[CODO_DER.value],lm[HOMBRO_DER.value],lm[CADERA_DER.value])
-        muñeca_izq = calculate_angle(lm[CODO_DER.value],lm[HOMBRO_DER.value],lm[CADERA_DER.value])
-        muñeca_der = calculate_angle(lm[CODO_DER.value],lm[HOMBRO_DER.value],lm[CADERA_DER.value])
-        ingle_izq = calculate_angle(lm[CODO_DER.value],lm[HOMBRO_DER.value],lm[CADERA_DER.value])
-        ingle_der = calculate_angle(lm[CODO_DER.value],lm[HOMBRO_DER.value],lm[CADERA_DER.value])
-        rodilla_izq = calculate_angle(lm[CODO_DER.value],lm[HOMBRO_DER.value],lm[CADERA_DER.value])
-        rodilla_der = calculate_angle(lm[CODO_DER.value],lm[HOMBRO_DER.value],lm[CADERA_DER.value])
-        empeine_izq = calculate_angle(lm[CODO_DER.value],lm[HOMBRO_DER.value],lm[CADERA_DER.value])
-        empeine_der = calculate_angle(lm[CODO_DER.value],lm[HOMBRO_DER.value],lm[CADERA_DER.value])
 
         #Dibujo para cuello
         draw_neck_line(img, lm, HOMBRO_IZQ.value, HOMBRO_DER.value, BOCA_IZQ.value, BOCA_DER.value, (255, 0, 255), 3)

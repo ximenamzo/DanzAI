@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d51d8bf3-b3ca-4fca-ba18-0efc515ff1cc" name="Changes" comment="first" />
+    <list default="true" id="d51d8bf3-b3ca-4fca-ba18-0efc515ff1cc" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/main_get_angles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danzai_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/danzai_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danzai_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/danzai_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_angles.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +47,7 @@
     &quot;Python.custonFullColor.executor&quot;: &quot;Run&quot;,
     &quot;Python.getAngles.executor&quot;: &quot;Run&quot;,
     &quot;Python.get_angles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_get_angles.executor&quot;: &quot;Run&quot;,
     &quot;Python.mediapipe_photo.executor&quot;: &quot;Run&quot;,
     &quot;Python.youtube to mp3.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -55,7 +62,7 @@
       <recent name="C:\Users\ximen\PycharmProjects\danzAI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.custom_full_color">
+  <component name="RunManager" selected="Python.main_get_angles">
     <configuration name="custom_full_color" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="danzAI" />
       <option name="ENV_FILES" value="" />
@@ -78,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_angles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main_get_angles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="danzAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +98,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_angles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_get_angles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main_get_angles" />
         <item itemvalue="Python.custom_full_color" />
-        <item itemvalue="Python.get_angles" />
         <item itemvalue="Python.youtube_to_mp3" />
       </list>
     </recent_temporary>
