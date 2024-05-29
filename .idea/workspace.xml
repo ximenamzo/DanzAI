@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d51d8bf3-b3ca-4fca-ba18-0efc515ff1cc" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/main_print_angles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_full_color.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_full_color.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom_middle_color.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_middle_color.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/danzai_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/danzai_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/danzai_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/danzai_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pao/primera_diagonal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pao/primera_frente" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pao/primera_frente_incorrecta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pao/primera_perfil" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pao/segunda_plie_frente" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main_get_angles.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_get_angles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +45,12 @@
     "Python.customColor.executor": "Run",
     "Python.customFullColor.executor": "Run",
     "Python.customMiddleColor.executor": "Run",
+    "Python.custom_colors.executor": "Run",
     "Python.custom_full_color.executor": "Run",
     "Python.custom_middle_color.executor": "Run",
     "Python.custonFullColor.executor": "Run",
+    "Python.danzai_functions.executor": "Run",
+    "Python.db.executor": "Run",
     "Python.dictionary.executor": "Run",
     "Python.getAngles.executor": "Run",
     "Python.get_angles.executor": "Run",
@@ -64,16 +60,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/xime/PycharmProjects/seleniumChrome",
+    "last_opened_file_path": "/home/xime/PycharmProjects/DanzAI",
     "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ximen\PycharmProjects\danzAI" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main_get_angles">
     <configuration name="custom_full_color" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="danzAI" />
       <option name="ENV_FILES" value="" />
@@ -151,7 +150,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
       </set>
     </attachedChunks>
   </component>

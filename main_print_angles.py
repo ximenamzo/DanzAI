@@ -2,7 +2,6 @@ from danzai_functions import *
 import matplotlib.pyplot as plt
 import cv2
 
-
 def process_images(img_paths):
     n_imgs = len(img_paths)
     fig, axs = plt.subplots(1, n_imgs, figsize=(5 * max(1, n_imgs), 5))
@@ -27,7 +26,7 @@ def process_images(img_paths):
             print(f"\n {img_path}")
             for angle_name, angle_value in angles.items():
                 position = lm[joints[angle_name]]
-                print(f"{angle_name.replace('_', ' ').title()}: {angle_value:.2f} grados.")  # Coordenadas: {position}
+                print(f"{angle_name.replace('_', ' ').title()}: {angle_value:.2f} grados. Coordenadas: {position}")
                 cv2.putText(img, f"{angle_value:.2f}", position, cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0), 2)
 
         axs[idx].imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
@@ -36,8 +35,6 @@ def process_images(img_paths):
 
     plt.show()
 
-
-# Lista de rutas a las imágenes
-image_paths = ['images/pao/primera_frente.JPG',
-               'images/pao/primera_frente_incorrecta.JPG']
+# Lista de rutas a la(s) imágen(es)
+image_paths = ['images/pao/primera_frente.JPG']
 process_images(image_paths)
