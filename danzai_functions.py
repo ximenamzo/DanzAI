@@ -72,7 +72,7 @@ def get_angles(lm):
                   codo_der=calc_angle(lm[HOMBRO_DER.value], lm[CODO_DER.value], lm[MUNECA_DER.value]),
                   muñeca_izq=calc_angle(lm[CODO_IZQ.value], lm[MUNECA_IZQ.value], lm[INDICE_IZQ.value]),
                   muñeca_der=calc_angle(lm[CODO_DER.value], lm[MUNECA_DER.value], lm[INDICE_DER.value]),
-                  ingle_izq=calc_angle(lm[CADERA_IZQ.value], lm[CADERA_DER.value], lm[RODILLA_IZQ.value]),
+                  ingle_izq=calc_angle(lm[CADERA_DER.value], lm[CADERA_IZQ.value], lm[RODILLA_IZQ.value]),
                   ingle_der=calc_angle(lm[CADERA_IZQ.value], lm[CADERA_DER.value], lm[RODILLA_DER.value]),
                   rodilla_izq=calc_angle(lm[CADERA_IZQ.value], lm[RODILLA_IZQ.value], lm[TOBILLO_IZQ.value]),
                   rodilla_der=calc_angle(lm[CADERA_DER.value], lm[RODILLA_DER.value], lm[TOBILLO_DER.value]),

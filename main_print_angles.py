@@ -36,5 +36,5 @@ def process_images(img_paths):
     plt.show()
 
 # Lista de rutas a la(s) imágen(es)
-image_paths = ['images/pao/primera_frente.JPG']
+image_paths = ['images/pao/primera_centro_normal_frente.JPG']
 process_images(image_paths)
