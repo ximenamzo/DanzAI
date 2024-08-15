@@ -79,4 +79,15 @@ def get_angles(lm):
                   empeine_izq=calc_angle(lm[RODILLA_IZQ.value], lm[TOBILLO_IZQ.value], lm[PUNTA_PIE_IZQ.value]),
                   empeine_der=calc_angle(lm[RODILLA_DER.value], lm[TOBILLO_DER.value], lm[PUNTA_PIE_DER.value]))
     return angles
-    
+
+
+def calculate_similarity(angle_ideal, angle_observed, threshold=20):
+    difference = abs(angle_ideal - angle_observed)
+    return max(0, (1 - difference / threshold)) * 100
+
+
+def calculate_percentage_difference(angle_ideal, angle_observed):
+    difference = abs(angle_ideal - angle_observed)
+    if angle_ideal == 0:  # Para evitar la división por cero
+        return 100  # Máxima diferencia
+    return (difference / angle_ideal) * 100

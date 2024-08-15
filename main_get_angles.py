@@ -3,18 +3,6 @@ import matplotlib.pyplot as plt
 import cv2
 
 
-def calculate_similarity(angle_ideal, angle_observed, threshold=20):
-    difference = abs(angle_ideal - angle_observed)
-    return max(0, (1 - difference / threshold)) * 100
-
-
-def calculate_percentage_difference(angle_ideal, angle_observed):
-    difference = abs(angle_ideal - angle_observed)
-    if angle_ideal == 0:  # Para evitar la división por cero
-        return 100  # Máxima diferencia
-    return (difference / angle_ideal) * 100
-
-
 def process_images(img_paths):
     if len(img_paths) != 2:
         print("Esta función espera exactamente dos rutas de imagen.")
@@ -39,7 +27,8 @@ def process_images(img_paths):
             angles = get_angles(lm)
             angle_data.append(angles)
 
-            print(f"\n {img_path}")
+            img_name = img_path.replace('images/pao/', '').split('.')[0]
+            print(f"\n {img_name}")
             for angle_name, angle_value in angles.items():
                 position = lm[joints[angle_name]]
                 print(f"{angle_name.replace('_', ' ').title()}: {angle_value:.2f} grados.")
@@ -51,7 +40,7 @@ def process_images(img_paths):
 
     # Diferencia de ángulos
     if len(angle_data) == 2:
-        print("\nDiferencias en porcentaje de los ángulos:")
+        print("\nDiferencia porcentaje")
         for angle in angle_data[0]:
             if angle in angle_data[1]:
                 difference = calculate_percentage_difference(angle_data[0][angle], angle_data[1][angle])
@@ -70,6 +59,6 @@ def process_images(img_paths):
 
 
 # Lista de rutas a las imágenes
-image_paths = ['images/pao/battement_derecha_segunda_frente.PNG',
-               'images/pao/battement_derecha_segunda_frente_incorrecta.jpg']
+image_paths = ['images/pao/cuarta_derecha_grandplie_frente.jpg',
+               'images/pao/cuarta_derecha_grandplie_frente_incorrecta.jpg']
 process_images(image_paths)

@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d51d8bf3-b3ca-4fca-ba18-0efc515ff1cc" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/import.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sqlDB.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/danzai_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/danzai_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pao/primera_frente.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/images/pao/primera_centro_normal_frente.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pao/primera_frente_incorrecta.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/images/pao/primera_centro_normal_frente_incorrecta.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pao/primera_centro_releve_frente.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pao/primera_centro_releve_frente.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_get_angles.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_get_angles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_print_angles.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_print_angles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,30 +43,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.customColor.executor": "Run",
-    "Python.customFullColor.executor": "Run",
-    "Python.customMiddleColor.executor": "Run",
-    "Python.custom_colors.executor": "Run",
-    "Python.custom_full_color.executor": "Run",
-    "Python.custom_middle_color.executor": "Run",
-    "Python.custonFullColor.executor": "Run",
-    "Python.danzai_functions.executor": "Run",
-    "Python.db.executor": "Run",
-    "Python.dictionary.executor": "Run",
-    "Python.getAngles.executor": "Run",
-    "Python.get_angles.executor": "Run",
-    "Python.main_get_angles.executor": "Run",
-    "Python.mediapipe_photo.executor": "Run",
-    "Python.youtube to mp3.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/xime/PycharmProjects/DanzAI",
-    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.barchart.executor&quot;: &quot;Run&quot;,
+    &quot;Python.customColor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.customFullColor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.customMiddleColor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.custom_colors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.custom_full_color.executor&quot;: &quot;Run&quot;,
+    &quot;Python.custom_middle_color.executor&quot;: &quot;Run&quot;,
+    &quot;Python.custonFullColor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.danzai_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.db.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dictionary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.getAngles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.get_angles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.import.executor&quot;: &quot;Run&quot;,
+    &quot;Python.linechart_manylineschart.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_get_angles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_print_angles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_video.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mediapipe_photo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scatterplot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sqlDB.executor&quot;: &quot;Run&quot;,
+    &quot;Python.youtube to mp3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/xime/PycharmProjects/DanzAI&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -74,7 +88,7 @@
       <recent name="C:\Users\ximen\PycharmProjects\danzAI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_get_angles">
+  <component name="RunManager" selected="Python.custom_full_color">
     <configuration name="custom_full_color" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="danzAI" />
       <option name="ENV_FILES" value="" />
@@ -89,6 +103,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/custom_full_color.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="import" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="danzAI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/import.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="youtube_to_mp3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main_print_angles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="danzAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,7 +168,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/youtube_to_mp3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_print_angles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sqlDB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="danzAI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sqlDB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,16 +201,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main_get_angles" />
         <item itemvalue="Python.custom_full_color" />
-        <item itemvalue="Python.youtube_to_mp3" />
+        <item itemvalue="Python.main_get_angles" />
+        <item itemvalue="Python.main_print_angles" />
+        <item itemvalue="Python.import" />
+        <item itemvalue="Python.sqlDB" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-python-sdk-8336bb23522e-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.19072.16" />
       </set>
     </attachedChunks>
   </component>
