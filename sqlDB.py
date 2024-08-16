@@ -49,3 +49,19 @@ def create_table(conn):
 
 conn = create_connection()
 create_table(conn)
+
+''' CHEATSHEET
+
+sqlite3 danzai.db
+
+SELECT * FROM posturas WHERE id = X;
+
+INSERT INTO posturas (pose, side, variation, camera_angle, left_armpit, right_armpit, ...) VALUES ('valor1', 'valor2', 'valor3', ...);
+
+UPDATE posturas SET pose = 'nuevo_valor' WHERE id = X;
+
+DELETE FROM posturas WHERE id = X;
+
+.quit
+
+'''

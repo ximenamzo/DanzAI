@@ -1,0 +1,54 @@
+/home/xime/PycharmProjects/DanzAI/.venv/bin/python /home/xime/PycharmProjects/DanzAI/main_video.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1723830647.234142   53417 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1723830647.237072   53468 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.2), renderer: Mesa Intel(R) Iris(R) Plus Graphics (ICL GT2)
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Current Angles: {'axila_izq': 39.151314573050115, 'axila_der': 40.45341369560073, 'codo_izq': 179.53903465247856, 'codo_der': 179.77145100242294, 'muñeca_izq': 178.35012712827773, 'muñeca_der': 168.7819170457498, 'ingle_izq': 92.95481112208275, 'ingle_der': 83.14985002701329, 'rodilla_izq': 179.54089836536676, 'rodilla_der': 176.65909677147786, 'empeine_izq': 161.06435174268555, 'empeine_der': 163.9509952074668}
+Current Angles: {'axila_izq': 49.15454868155248, 'axila_der': 2.5217866558356024, 'codo_izq': 162.1758572429801, 'codo_der': 170.945827415318, 'muñeca_izq': 174.053056126858, 'muñeca_der': 177.7222845512591, 'ingle_izq': 162.81401993777868, 'ingle_der': 37.49256475205923, 'rodilla_izq': 67.49368321087464, 'rodilla_der': 152.44876979264748, 'empeine_izq': 137.42841464660822, 'empeine_der': 177.4116400545644}
+Current Angles: {'axila_izq': 31.29137623650854, 'axila_der': 25.3493946854087, 'codo_izq': 172.3542518467205, 'codo_der': 162.11197570041443, 'muñeca_izq': 175.98842239915533, 'muñeca_der': 165.3604385431747, 'ingle_izq': 87.92086827809524, 'ingle_der': 83.76755759488799, 'rodilla_izq': 178.02239386061052, 'rodilla_der': 168.43369490153896, 'empeine_izq': 134.71038605792708, 'empeine_der': 145.75695365550303}
+
+Current Angles: {
+'axila_izq': 24.34845254003325, 'axila_der': 26.860420728774848,
+'codo_izq': 142.52542000813284, 'codo_der': 135.89756774620696,
+'muñeca_izq': 153.22697957469146, 'muñeca_der': 157.26493473136966,
+'ingle_izq': 88.4120544350968, 'ingle_der': 84.4451740943159,
+'rodilla_izq': 177.69952274625248, 'rodilla_der': 177.9000541003838,
+'empeine_izq': 135.5447553616131, 'empeine_der': 137.58040239054367}
+
+DB
+1|primera|centro|normal|frente
+|45.00 |45.00 |   /axila     |12.00  |12.00 |
+|160.0 |160.0 |   /codo      |140.00 |140.0 |
+|160.0 |160.0 |   /muneca    |130.00 |130.00|
+|80.00 |80.00 |   /ingle     |90.00  |90.00 |
+|180.00|180.00|   /rodilla   |170.00 |170.00|
+|130.00|130.00|   /empeine   |170.00 |170.00|
+
+UPDATE posturas
+SET
+  left_armpit = 45.00, right_armpit = 45.00,
+  left_elbow = 160.00, right_elbow = 160.00,
+  left_wrist = 160.00, right_wrist = 160.00,
+  left_hip = 80.00, right_hip = 80.00,
+  left_knee = 180.00, right_knee = 180.00,
+  left_foot = 130.00, right_foot = 130.00,
+  min_left_armpit = 10.00, min_right_armpit = 10.00,
+  min_left_elbow = 140.00, min_right_elbow = 140.00,
+  min_left_wrist = 130.00, min_right_wrist = 130.00,
+  min_left_hip = 90.00, min_right_hip = 90.00,
+  min_left_knee = 170.00, min_right_knee = 170.00,
+  min_left_foot = 170.00, min_right_foot = 170.00
+WHERE id = 1;
+
+UPDATE posturas SET left_armpit = 45.00, right_armpit = 45.00, left_elbow = 160.00, right_elbow = 160.00, left_wrist = 160.00, right_wrist = 160.00, left_hip = 80.00, right_hip = 80.00, left_knee = 180.00, right_knee = 180.00, left_foot = 130.00, right_foot = 130.00, min_left_armpit = 10.00, min_right_armpit = 10.00, min_left_elbow = 140.00, min_right_elbow = 140.00, min_left_wrist = 130.00, min_right_wrist = 130.00, min_left_hip = 90.00, min_right_hip = 90.00, min_left_knee = 170.00, min_right_knee = 170.00, min_left_foot = 170.00, min_right_foot = 170.00 WHERE id = 1;
+
+
+
+Traceback (most recent call last):
+  File "/home/xime/PycharmProjects/DanzAI/main_video.py", line 68, in <module>
+    mp.solutions.drawing_utils.draw_landmarks(image, results.pose_landmarks, mp_pose.POSE_CONNECTIONS)
+  File "/home/xime/PycharmProjects/DanzAI/.venv/lib/python3.10/site-packages/mediapipe/python/solutions/drawing_utils.py", line 182, in draw_landmarks
+    cv2.line(image, idx_to_coordinates[start_idx],
+KeyboardInterrupt
+
+Process finished with exit code 130 (interrupted by signal 2:SIGINT)

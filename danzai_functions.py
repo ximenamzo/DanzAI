@@ -48,7 +48,6 @@ def draw_center_line(img, lm, hip_left, hip_right, knee, color, thickness=5):
 
 # Función para calcular los ángulos
 def calc_angle(point1, point2, point3):
-    # Extracción de coordenadas
     x1, y1 = point1
     x2, y2 = point2
     x3, y3 = point3
@@ -58,8 +57,12 @@ def calc_angle(point1, point2, point3):
     b = math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
     c = math.sqrt((x1 - x3) ** 2 + (y1 - y3) ** 2)
 
-    # Ley de Coseno
-    angle = math.acos((a ** 2 + b ** 2 - c ** 2) / (2 * a * b))
+    # Ley de Coseno para calcular el ángulo
+    cos_angle = (a ** 2 + b ** 2 - c ** 2) / (2 * a * b)
+    # Aseguramos que el valor esté en el rango válido para acos()
+    cos_angle = max(-1.0, min(1.0, cos_angle))
+
+    angle = math.acos(cos_angle)
     # Conversión a grados
     angle = math.degrees(angle)
     return angle

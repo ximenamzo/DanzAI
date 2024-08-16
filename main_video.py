@@ -1,15 +1,20 @@
 from danzai_functions import *
 import cv2
 import sqlite3
+import time
+
+last_print_time = time.time()
+
 
 def create_connection():
     return sqlite3.connect('danzai.db')
 
+
 def find_pose(angles):
     conn = create_connection()
     cursor = conn.cursor()
-    query = """
-        SELECT pose, side, variation FROM posturas
+    query = """SELECT pose, side, variation, camera_angle
+                FROM posturas
         WHERE (min_left_armpit <= ? AND left_armpit >= ?)
           AND (min_right_armpit <= ? AND right_armpit >= ?)
           AND (min_left_elbow <= ? AND left_elbow >= ?)
@@ -37,9 +42,11 @@ def find_pose(angles):
         angles['empeine_izq'], angles['empeine_izq'],
         angles['empeine_der'], angles['empeine_der']
     ))
-    result = cursor.fetchone()
+    results = cursor.fetchall()
     conn.close()
-    return result
+    if results:
+        print("Detected Pose:", results[0])
+    return results
 
 cap = cv2.VideoCapture(0)  # Abre la cámara de video
 
@@ -49,6 +56,7 @@ while cap.isOpened():
         print("Error al leer la cámara.")
         break
 
+    # Procesamiento de la imagen de video
     image.flags.writeable = False
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     results = pose.process(image)
@@ -57,17 +65,16 @@ while cap.isOpened():
     image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
 
     if results.pose_landmarks:
-        mp.solutions.drawing_utils.draw_landmarks(
-            image, results.pose_landmarks, mp_pose.POSE_CONNECTIONS)
-        lm = [(int(landmark.x * image.shape[1]), int(landmark.y * image.shape[0]))
-              for landmark in results.pose_landmarks.landmark]
+        mp.solutions.drawing_utils.draw_landmarks(image, results.pose_landmarks, mp_pose.POSE_CONNECTIONS)
+        lm = [(int(landmark.x * image.shape[1]), int(landmark.y * image.shape[0])) for landmark in
+              results.pose_landmarks.landmark]
         angles = get_angles(lm)
-        pose_info = find_pose(angles)
-        if pose_info:
-            pose_text = f"{pose_info[0]}_{pose_info[1]}_{pose_info[2]}"
-            cv2.putText(image, pose_text, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
-        else:
-            cv2.putText(image, "Neutro", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+        if time.time() - last_print_time >= 5:
+            print(f"Current Angles: {angles}")
+            last_print_time = time.time()
+        pose_results = find_pose(angles)
+        pose_text = ' '.join([str(x) for x in pose_results[0]]) if pose_results else "No pose detected"
+        cv2.putText(image, pose_text, (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
     cv2.imshow('Pose', image)
     if cv2.waitKey(5) & 0xFF == 27:

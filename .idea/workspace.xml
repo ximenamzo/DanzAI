@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d51d8bf3-b3ca-4fca-ba18-0efc515ff1cc" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/import.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analisis/ago16.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danzai.db" beforeDir="false" afterPath="$PROJECT_DIR$/danzai.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/danzai_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/danzai_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pao/primera_centro_releve_frente.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pao/primera_centro_releve_frente.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_get_angles.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_get_angles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/sqlDB.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
       <recent name="C:\Users\ximen\PycharmProjects\danzAI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.custom_full_color">
+  <component name="RunManager">
     <configuration name="custom_full_color" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="danzAI" />
       <option name="ENV_FILES" value="" />
