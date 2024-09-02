@@ -59,6 +59,6 @@ def process_images(img_paths):
 
 
 # Lista de rutas a las imágenes
-image_paths = ['images/pao/cuarta_derecha_grandplie_frente.jpg',
-               'images/pao/cuarta_derecha_grandplie_frente_incorrecta.jpg']
+image_paths = ['images/pao/segunda_centro_normal_frente.jpg',
+               'images/pao/segunda_centro_normal_frente_incorrecta.jpg']
 process_images(image_paths)

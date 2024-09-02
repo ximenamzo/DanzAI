@@ -84,6 +84,24 @@ def get_angles(lm):
     return angles
 
 
+def get_angles_positions(lm):
+    angles_positions = {
+        'axila_izq': (calc_angle(lm[CODO_IZQ.value], lm[HOMBRO_IZQ.value], lm[CADERA_IZQ.value]), lm[HOMBRO_IZQ.value]),
+        'axila_der': (calc_angle(lm[CODO_DER.value], lm[HOMBRO_DER.value], lm[CADERA_DER.value]), lm[HOMBRO_DER.value]),
+        'codo_izq': (calc_angle(lm[HOMBRO_IZQ.value], lm[CODO_IZQ.value], lm[MUNECA_IZQ.value]), lm[CODO_IZQ.value]),
+        'codo_der': (calc_angle(lm[HOMBRO_DER.value], lm[CODO_DER.value], lm[MUNECA_DER.value]), lm[CODO_DER.value]),
+        'muñeca_izq': (calc_angle(lm[CODO_IZQ.value], lm[MUNECA_IZQ.value], lm[INDICE_IZQ.value]), lm[MUNECA_IZQ.value]),
+        'muñeca_der': (calc_angle(lm[CODO_DER.value], lm[MUNECA_DER.value], lm[INDICE_DER.value]), lm[MUNECA_DER.value]),
+        'ingle_izq': (calc_angle(lm[CADERA_IZQ.value], lm[CADERA_DER.value], lm[RODILLA_IZQ.value]), lm[RODILLA_IZQ.value]),
+        'ingle_der': (calc_angle(lm[CADERA_DER.value], lm[CADERA_IZQ.value], lm[RODILLA_DER.value]), lm[RODILLA_DER.value]),
+        'rodilla_izq': (calc_angle(lm[CADERA_IZQ.value], lm[RODILLA_IZQ.value], lm[TOBILLO_IZQ.value]), lm[RODILLA_IZQ.value]),
+        'rodilla_der': (calc_angle(lm[CADERA_DER.value], lm[RODILLA_DER.value], lm[TOBILLO_DER.value]), lm[RODILLA_DER.value]),
+        'empeine_izq': (calc_angle(lm[RODILLA_IZQ.value], lm[TOBILLO_IZQ.value], lm[PUNTA_PIE_IZQ.value]), lm[TOBILLO_IZQ.value]),
+        'empeine_der': (calc_angle(lm[RODILLA_DER.value], lm[TOBILLO_DER.value], lm[PUNTA_PIE_DER.value]), lm[TOBILLO_DER.value])
+    }
+    return angles_positions
+
+
 def calculate_similarity(angle_ideal, angle_observed, threshold=20):
     difference = abs(angle_ideal - angle_observed)
     return max(0, (1 - difference / threshold)) * 100

@@ -52,3 +52,30 @@ Traceback (most recent call last):
 KeyboardInterrupt
 
 Process finished with exit code 130 (interrupted by signal 2:SIGINT)
+
+
+
+pose / lado / variacion / posicion de camara
+
+1. battement pierna derecha en segunda (lado), camara de frente
+2. grand plie cuarta p derecha, camara de frente
+3. cou de pied p derecha de lado, camara de frente
+4. passe p derecha de lado, camara de frente
+5. primera posicion (manos y pies), camara de frente
+6. plie sencillo primera posicion, camara de frente
+7. releve primera posicion, camara de frente
+8. segunda posicion (brazos y piernas), camara de frente
+9. tercera posicion (manos y pies) pierna derecha frente, camara de frente
+10. plie sencillo tercera posicion (brazos y piernas) pierna derecha frente, camara de frente
+11. primera posicion (manos y pies), camara (vista) de PERFIL
+12. tercera posicion (manos y pies) pierna derecha frente, camara de frente
+13. plie sencillo primera posicion, camara de PERFIL
+14. grand plie primera posicion, camara de PERFIL
+15. grand plie segunda posicion, camara de PERFIL
+16. plie sencillo tercera posicion (brazos y piernas) pierna derecha frente, camara de PERFIL
+
+*  en las de PERFIL, en la foto de tu cel tu cuerpo debe estar viendo al lado derecho
+
+Si no es mucha molestia, que sea una foto de cada pose ejecutada correctamente y otra donde esté como mal hecha o con errores comunes
+Igual sé que son muchas, toma solo las que puedas y gracias
+Por cierto, de preferencia con ropa negra, leotardo y mayas negras, pero que haga contraste con tu fondo dentro de lo posible, como una pared o así
