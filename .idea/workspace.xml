@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d51d8bf3-b3ca-4fca-ba18-0efc515ff1cc" name="Changes" comment="first">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heicToJpg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgToJpg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/danzAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/danzAI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analisis/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/analisis/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/import.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/import.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landmark_colors.png" beforeDir="false" afterPath="$PROJECT_DIR$/analisis/landmark_colors.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landmark_guide.png" beforeDir="false" afterPath="$PROJECT_DIR$/analisis/landmark_guide.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediapipeSamples/mediapipe_camera.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mediapipe_photo.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediapipeSamples/mediapipe_photo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sqlDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlDB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testVideos/battement.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testVideos/battement2.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testVideos/mtaw.MP4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testVideos/primera.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testVideos/tango.MP4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testVideos/tendue2.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testVideos/track.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/mediapipeSamples/test_video.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,56 +40,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.barchart.executor": "Run",
-    "Python.customColor.executor": "Run",
-    "Python.customFullColor.executor": "Run",
-    "Python.customMiddleColor.executor": "Run",
-    "Python.custom_colors.executor": "Run",
-    "Python.custom_full_color.executor": "Run",
-    "Python.custom_middle_color.executor": "Run",
-    "Python.custonFullColor.executor": "Run",
-    "Python.danzai_functions.executor": "Run",
-    "Python.db.executor": "Run",
-    "Python.dictionary.executor": "Run",
-    "Python.getAngles.executor": "Run",
-    "Python.get_angles.executor": "Run",
-    "Python.import.executor": "Run",
-    "Python.linechart_manylineschart.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main_get_angles.executor": "Run",
-    "Python.main_print_angles.executor": "Run",
-    "Python.main_video.executor": "Run",
-    "Python.mediapipe_photo.executor": "Run",
-    "Python.scatterplot.executor": "Run",
-    "Python.scratch.executor": "Run",
-    "Python.sqlDB.executor": "Run",
-    "Python.youtube to mp3.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/xime/PycharmProjects/DanzAI",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.barchart.executor&quot;: &quot;Run&quot;,
+    &quot;Python.captura.executor&quot;: &quot;Run&quot;,
+    &quot;Python.customColor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.customFullColor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.customMiddleColor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.custom_colors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.custom_full_color.executor&quot;: &quot;Run&quot;,
+    &quot;Python.custom_middle_color.executor&quot;: &quot;Run&quot;,
+    &quot;Python.custonFullColor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.danzai_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.db.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dictionary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.getAngles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.get_angles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.heicToJpg.executor&quot;: &quot;Run&quot;,
+    &quot;Python.imgToJpg.executor&quot;: &quot;Run&quot;,
+    &quot;Python.import.executor&quot;: &quot;Run&quot;,
+    &quot;Python.linechart_manylineschart.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_get_angles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_print_angles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_video.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mediapipe_photo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scatterplot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sqlDB.executor&quot;: &quot;Run&quot;,
+    &quot;Python.youtube to mp3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/xime/PycharmProjects/DanzAI&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Python"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/analisis" />
       <recent name="$PROJECT_DIR$/mediapipeSamples" />
       <recent name="$PROJECT_DIR$/db" />
-      <recent name="$PROJECT_DIR$/analisis" />
       <recent name="C:\Users\ximen\PycharmProjects\danzAI" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.custom_full_color">
     <configuration name="custom_full_color" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="danzAI" />
       <option name="ENV_FILES" value="" />
