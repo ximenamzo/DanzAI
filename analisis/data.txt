@@ -1,0 +1,109 @@
+Morado (255, 0, 255)
+Rojo (255, 0, 0)
+Naranja (255, 165, 0)
+Amarillo (255, 255, 0)
+Azul (0, 0, 255)
+Cian (0, 255, 255)
+Verde (0, 255, 0)
+
+
+# Á N G U L O S
+Cuello izq
+Cuello der
+Axila der
+Axila izq
+Codo izq
+Codo der
+Muñeca izq
+Muñeca der
+Ingle izq
+Ingle derecha
+Rodilla izq
+Rodilla der
+Empeine izq
+Empeine der
+
+
+
+
+0. nariz
+1. izq ojo int
+2. izq ojo
+3. izq ojo ext
+4. der ojo int
+5. der ojo
+6. der ojo ext
+7. izq oreja
+8. der oreja
+9. izq boca
+10. der boca
+
+11. izq hombro
+12. der hombro
+13. izq codo
+14. der codo
+15. izq muñeca
+16. der muñeca
+17. izq meñique
+18. der meñique
+19. izq indice
+20. der indice
+21. izq pulgar
+22. der pulgar
+
+23. izq cadera
+24. der cadera
+25. izq rodilla
+26. der rodilla
+27. izq tobillo
+28. der tobillo
+29. izq talon
+30. der talon
+31. izq punta pie
+32. der punta pie
+
+
+
+
+
+0. nariz
+
+1. izq ojo int
+2. izq ojo
+3. izq ojo ext
+
+4. der ojo int
+5. der ojo
+6. der ojo ext
+
+7. izq oreja
+8. der oreja
+9. izq boca
+10. der boca
+
+-- Todo morado --
+
+
+11. izq hombro
+12. der hombro
+13. izq codo
+14. der codo
+15. izq muñeca
+16. der muñeca
+17. izq meñique
+18. der meñique
+19. izq indice
+20. der indice
+21. izq pulgar
+22. der pulgar
+
+23. izq cadera
+24. der cadera
+25. izq rodilla
+26. der rodilla
+27. izq tobillo
+28. der tobillo
+29. izq talon
+30. der talon
+31. izq punta pie
+32. der punta pie
