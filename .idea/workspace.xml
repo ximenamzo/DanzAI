@@ -5,10 +5,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d51d8bf3-b3ca-4fca-ba18-0efc515ff1cc" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/heicToJpg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgToJpg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/danzAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/danzAI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/0/zprimera_perfil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/0/zsegunda_plie_frente.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4110.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4117.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4120.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4131.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4132.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4133.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4135.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4136.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4137.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4138.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/1/IMG_4139.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4021.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4026.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4027.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4028.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4029.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4030.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4031.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4032.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4033.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4034.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4035.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/2/IMG_4036.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/3/IMG_4071.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/3/IMG_4072.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/3/IMG_4073.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/3/IMG_4074.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/3/IMG_4075.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/3/IMG_4076.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/3/IMG_4077.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/analisis/3/IMG_4078.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +142,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/xime/PycharmProjects/DanzAI&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
@@ -86,11 +155,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tools" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/analisis" />
       <recent name="$PROJECT_DIR$/mediapipeSamples" />
       <recent name="$PROJECT_DIR$/db" />
-      <recent name="C:\Users\ximen\PycharmProjects\danzAI" />
     </key>
   </component>
   <component name="RunManager" selected="Python.custom_full_color">
@@ -217,7 +286,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+        <option value="bundled-python-sdk-884f5ed5d46b-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.22855.92" />
       </set>
     </attachedChunks>
   </component>
