@@ -1,0 +1,554 @@
+/home/xime/PycharmProjects/DanzAI/.venv/bin/python /home/xime/PycharmProjects/DanzAI/dataset_analysis.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1727982654.441968    9705 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1727982654.444973    9887 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.2), renderer: Mesa Intel(R) Iris(R) Plus Graphics (ICL GT2)
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Pose: tercera_derecha_plie_incorrecta
+axila_izq average: 46.74, min: 10.87, max: 93.23
+axila_der average: 46.30, min: 9.87, max: 85.73
+codo_izq average: 113.26, min: 5.72, max: 169.78
+codo_der average: 114.60, min: 0.22, max: 169.75
+muñeca_izq average: 163.40, min: 134.76, max: 178.60
+muñeca_der average: 164.89, min: 138.62, max: 179.83
+ingle_izq average: 102.53, min: 48.48, max: 139.99
+ingle_der average: 85.82, min: 34.85, max: 142.06
+rodilla_izq average: 140.25, min: 120.49, max: 153.55
+rodilla_der average: 136.63, min: 107.41, max: 152.71
+empeine_izq average: 117.31, min: 89.71, max: 145.75
+empeine_der average: 111.28, min: 89.06, max: 131.74
+
+Pose: cudepie_derecha_front_frente_correcta
+axila_izq average: 45.18, min: 32.49, max: 73.02
+axila_der average: 39.10, min: 27.99, max: 58.66
+codo_izq average: 96.86, min: 16.30, max: 124.91
+codo_der average: 102.50, min: 21.40, max: 149.09
+muñeca_izq average: 153.14, min: 144.95, max: 178.24
+muñeca_der average: 153.81, min: 143.36, max: 178.44
+ingle_izq average: 85.68, min: 83.96, max: 88.60
+ingle_der average: 98.45, min: 81.31, max: 123.97
+rodilla_izq average: 177.66, min: 176.76, max: 178.71
+rodilla_der average: 150.51, min: 110.61, max: 171.40
+empeine_izq average: 150.33, min: 137.17, max: 163.76
+empeine_der average: 159.02, min: 105.99, max: 178.47
+
+Pose: passe_derecha_front_frente_correcta
+axila_izq average: 77.82, min: 39.87, max: 107.30
+axila_der average: 67.45, min: 35.04, max: 88.67
+codo_izq average: 40.79, min: 2.79, max: 107.95
+codo_der average: 37.61, min: 2.84, max: 101.59
+muñeca_izq average: 162.02, min: 142.44, max: 177.97
+muñeca_der average: 164.43, min: 142.40, max: 179.76
+ingle_izq average: 93.51, min: 83.50, max: 101.47
+ingle_der average: 131.50, min: 86.77, max: 172.74
+rodilla_izq average: 175.18, min: 168.94, max: 179.00
+rodilla_der average: 89.99, min: 58.85, max: 152.66
+empeine_izq average: 152.10, min: 130.96, max: 169.78
+empeine_der average: 147.40, min: 131.37, max: 171.29
+
+Pose: segunda_centro_normal_frente_correcta
+axila_izq average: 77.41, min: 63.67, max: 88.27
+axila_der average: 74.39, min: 66.53, max: 84.34
+codo_izq average: 154.17, min: 131.35, max: 177.97
+codo_der average: 154.85, min: 142.96, max: 178.93
+muñeca_izq average: 161.97, min: 144.80, max: 175.73
+muñeca_der average: 163.94, min: 146.81, max: 179.17
+ingle_izq average: 98.30, min: 90.40, max: 103.94
+ingle_der average: 101.18, min: 94.33, max: 107.25
+rodilla_izq average: 175.87, min: 170.57, max: 179.34
+rodilla_der average: 175.18, min: 169.50, max: 178.55
+empeine_izq average: 155.80, min: 133.98, max: 169.90
+empeine_der average: 157.16, min: 131.19, max: 175.67
+
+Pose: segunda_centro_normal_incorrecta
+axila_izq average: 82.95, min: 78.91, max: 89.61
+axila_der average: 80.32, min: 75.17, max: 92.53
+codo_izq average: 153.85, min: 147.57, max: 165.09
+codo_der average: 153.50, min: 147.11, max: 161.77
+muñeca_izq average: 177.14, min: 171.00, max: 179.66
+muñeca_der average: 176.45, min: 174.23, max: 178.91
+ingle_izq average: 93.20, min: 92.03, max: 94.86
+ingle_der average: 93.97, min: 91.04, max: 97.23
+rodilla_izq average: 173.35, min: 169.66, max: 176.51
+rodilla_der average: 174.57, min: 170.10, max: 179.78
+empeine_izq average: 144.49, min: 132.69, max: 158.58
+empeine_der average: 141.51, min: 132.14, max: 160.19
+
+Pose: tercera_derecha_plie_frente_correcta
+axila_izq average: 35.74, min: 16.55, max: 72.58
+axila_der average: 35.54, min: 10.94, max: 76.09
+codo_izq average: 85.86, min: 3.38, max: 154.27
+codo_der average: 91.10, min: 10.49, max: 164.29
+muñeca_izq average: 157.12, min: 140.86, max: 169.76
+muñeca_der average: 158.25, min: 133.62, max: 177.38
+ingle_izq average: 93.04, min: 89.62, max: 95.51
+ingle_der average: 94.08, min: 91.45, max: 97.95
+rodilla_izq average: 160.92, min: 150.76, max: 164.74
+rodilla_der average: 162.02, min: 153.69, max: 169.97
+empeine_izq average: 133.22, min: 106.48, max: 154.92
+empeine_der average: 131.42, min: 112.82, max: 153.39
+
+Pose: primera_centro_releve_incorrecta
+axila_izq average: 159.97, min: 153.21, max: 170.56
+axila_der average: 162.97, min: 159.61, max: 167.22
+codo_izq average: 130.91, min: 117.69, max: 146.16
+codo_der average: 131.40, min: 118.98, max: 141.90
+muñeca_izq average: 153.36, min: 143.60, max: 159.64
+muñeca_der average: 150.67, min: 142.83, max: 156.04
+ingle_izq average: 84.44, min: 82.75, max: 86.51
+ingle_der average: 87.82, min: 84.16, max: 91.43
+rodilla_izq average: 177.14, min: 174.39, max: 178.63
+rodilla_der average: 176.48, min: 171.68, max: 178.61
+empeine_izq average: 174.18, min: 167.31, max: 178.86
+empeine_der average: 168.93, min: 156.52, max: 178.59
+
+Pose: cuarta_derecha_grandplie_frente_correcta
+axila_izq average: 42.73, min: 24.99, max: 52.78
+axila_der average: 39.36, min: 21.47, max: 65.79
+codo_izq average: 106.44, min: 49.38, max: 143.88
+codo_der average: 105.45, min: 36.87, max: 146.90
+muñeca_izq average: 148.76, min: 135.45, max: 167.74
+muñeca_der average: 155.51, min: 138.75, max: 166.04
+ingle_izq average: 143.24, min: 114.59, max: 164.18
+ingle_der average: 132.54, min: 66.89, max: 175.95
+rodilla_izq average: 35.52, min: 11.35, max: 63.43
+rodilla_der average: 83.27, min: 20.08, max: 143.74
+empeine_izq average: 90.46, min: 51.70, max: 101.71
+empeine_der average: 131.64, min: 106.05, max: 160.27
+
+Pose: passe_derecha_front_incorrecta
+axila_izq average: 77.02, min: 44.94, max: 106.70
+axila_der average: 63.82, min: 27.36, max: 90.61
+codo_izq average: 42.31, min: 0.60, max: 115.05
+codo_der average: 38.62, min: 0.58, max: 120.37
+muñeca_izq average: 162.91, min: 140.16, max: 179.20
+muñeca_der average: 167.16, min: 146.41, max: 179.01
+ingle_izq average: 93.26, min: 83.89, max: 100.42
+ingle_der average: 147.27, min: 143.20, max: 151.26
+rodilla_izq average: 177.96, min: 174.75, max: 179.69
+rodilla_der average: 56.93, min: 44.82, max: 69.35
+empeine_izq average: 147.38, min: 128.10, max: 173.26
+empeine_der average: 148.11, min: 130.67, max: 166.07
+
+Pose: primera_centro_normal_incorrecta
+axila_izq average: 20.93, min: 1.71, max: 41.55
+axila_der average: 22.85, min: 2.62, max: 40.89
+codo_izq average: 138.84, min: 103.35, max: 163.93
+codo_der average: 141.78, min: 108.97, max: 170.77
+muñeca_izq average: 158.72, min: 135.00, max: 177.33
+muñeca_der average: 159.95, min: 134.39, max: 178.80
+ingle_izq average: 92.18, min: 73.73, max: 170.28
+ingle_der average: 82.47, min: 10.82, max: 102.58
+rodilla_izq average: 176.52, min: 173.66, max: 179.18
+rodilla_der average: 177.20, min: 172.73, max: 179.94
+empeine_izq average: 126.29, min: 99.43, max: 150.39
+empeine_der average: 133.71, min: 114.14, max: 143.03
+
+Pose: zprimera_frente_correcta
+axila_izq average: 14.62, min: 14.62, max: 14.62
+axila_der average: 11.34, min: 11.34, max: 11.34
+codo_izq average: 159.04, min: 159.04, max: 159.04
+codo_der average: 158.52, min: 158.52, max: 158.52
+muñeca_izq average: 147.02, min: 147.02, max: 147.02
+muñeca_der average: 154.65, min: 154.65, max: 154.65
+ingle_izq average: 84.99, min: 84.99, max: 84.99
+ingle_der average: 90.58, min: 90.58, max: 90.58
+rodilla_izq average: 178.43, min: 178.43, max: 178.43
+rodilla_der average: 170.20, min: 170.20, max: 170.20
+empeine_izq average: 146.38, min: 146.38, max: 146.38
+empeine_der average: 131.81, min: 131.81, max: 131.81
+
+Pose: tercera_derecha_normal_frente_correcta
+axila_izq average: 54.58, min: 34.79, max: 82.37
+axila_der average: 51.74, min: 28.15, max: 87.05
+codo_izq average: 64.44, min: 0.86, max: 115.04
+codo_der average: 73.28, min: 0.05, max: 130.12
+muñeca_izq average: 152.11, min: 142.75, max: 162.54
+muñeca_der average: 154.46, min: 134.11, max: 173.72
+ingle_izq average: 84.82, min: 83.86, max: 85.49
+ingle_der average: 87.72, min: 81.99, max: 92.31
+rodilla_izq average: 176.80, min: 175.91, max: 177.76
+rodilla_der average: 177.44, min: 173.43, max: 179.99
+empeine_izq average: 156.23, min: 131.96, max: 170.55
+empeine_der average: 158.26, min: 140.45, max: 167.17
+
+Pose: primera_centro_releve_frente_correcta
+axila_izq average: 94.47, min: 28.31, max: 170.50
+axila_der average: 95.41, min: 21.77, max: 171.22
+codo_izq average: 125.30, min: 104.42, max: 148.14
+codo_der average: 129.76, min: 114.34, max: 147.32
+muñeca_izq average: 147.19, min: 143.03, max: 150.49
+muñeca_der average: 146.36, min: 135.86, max: 159.78
+ingle_izq average: 85.99, min: 80.90, max: 90.24
+ingle_der average: 89.47, min: 82.12, max: 94.80
+rodilla_izq average: 177.91, min: 175.31, max: 179.13
+rodilla_der average: 175.59, min: 168.64, max: 178.57
+empeine_izq average: 170.98, min: 160.22, max: 178.61
+empeine_der average: 168.88, min: 155.31, max: 178.80
+
+Pose: cuarta_derecha_grandplie_incorrecta
+axila_izq average: 35.36, min: 23.32, max: 53.51
+axila_der average: 32.38, min: 20.60, max: 48.94
+codo_izq average: 132.30, min: 91.62, max: 170.13
+codo_der average: 127.13, min: 63.18, max: 158.42
+muñeca_izq average: 153.23, min: 135.60, max: 176.34
+muñeca_der average: 155.25, min: 131.21, max: 176.93
+ingle_izq average: 144.32, min: 119.40, max: 159.85
+ingle_der average: 111.14, min: 30.01, max: 159.47
+rodilla_izq average: 37.54, min: 17.50, max: 60.71
+rodilla_der average: 60.02, min: 35.84, max: 96.35
+empeine_izq average: 94.88, min: 54.31, max: 151.85
+empeine_der average: 97.22, min: 79.47, max: 126.43
+
+Pose: primera_centro_plie_incorrecta
+axila_izq average: 23.61, min: 5.86, max: 39.15
+axila_der average: 24.30, min: 12.80, max: 39.98
+codo_izq average: 141.69, min: 109.06, max: 176.84
+codo_der average: 141.78, min: 105.25, max: 170.88
+muñeca_izq average: 158.59, min: 145.76, max: 172.70
+muñeca_der average: 157.90, min: 135.87, max: 179.31
+ingle_izq average: 99.69, min: 73.38, max: 114.98
+ingle_der average: 97.61, min: 58.23, max: 116.03
+rodilla_izq average: 136.62, min: 123.16, max: 149.61
+rodilla_der average: 135.90, min: 121.71, max: 147.21
+empeine_izq average: 106.06, min: 90.80, max: 135.42
+empeine_der average: 108.20, min: 90.75, max: 120.99
+
+Pose: segunda_centro_plie_incorrecta
+axila_izq average: 61.82, min: 24.32, max: 96.36
+axila_der average: 59.17, min: 27.87, max: 92.00
+codo_izq average: 142.47, min: 101.59, max: 168.48
+codo_der average: 141.00, min: 101.54, max: 163.12
+muñeca_izq average: 174.09, min: 165.41, max: 178.34
+muñeca_der average: 174.98, min: 165.46, max: 179.01
+ingle_izq average: 128.76, min: 108.65, max: 152.76
+ingle_der average: 98.09, min: 49.47, max: 142.86
+rodilla_izq average: 115.04, min: 98.51, max: 136.44
+rodilla_der average: 117.49, min: 101.10, max: 131.32
+empeine_izq average: 111.83, min: 96.55, max: 141.88
+empeine_der average: 107.41, min: 98.62, max: 115.47
+
+Pose: primera_centro_plie_frente_correcta
+axila_izq average: 26.00, min: 11.93, max: 33.32
+axila_der average: 25.48, min: 12.91, max: 31.72
+codo_izq average: 136.47, min: 128.82, max: 159.25
+codo_der average: 136.16, min: 129.89, max: 151.61
+muñeca_izq average: 150.38, min: 147.03, max: 155.86
+muñeca_der average: 151.79, min: 138.40, max: 157.31
+ingle_izq average: 94.41, min: 86.39, max: 105.45
+ingle_der average: 93.70, min: 87.25, max: 97.80
+rodilla_izq average: 163.01, min: 140.90, max: 176.62
+rodilla_der average: 166.86, min: 156.15, max: 177.87
+empeine_izq average: 130.77, min: 107.56, max: 152.87
+empeine_der average: 136.77, min: 115.56, max: 162.19
+
+Pose: battement_derecha_segunda_frente_correcta
+axila_izq average: 103.35, min: 96.53, max: 118.18
+axila_der average: 80.33, min: 71.84, max: 92.72
+codo_izq average: 156.98, min: 153.84, max: 162.61
+codo_der average: 154.34, min: 135.08, max: 161.92
+muñeca_izq average: 173.29, min: 165.55, max: 178.84
+muñeca_der average: 171.51, min: 167.85, max: 177.07
+ingle_izq average: 111.82, min: 97.30, max: 122.80
+ingle_der average: 162.56, min: 150.86, max: 179.70
+rodilla_izq average: 176.18, min: 172.51, max: 179.97
+rodilla_der average: 170.79, min: 154.05, max: 177.80
+empeine_izq average: 152.74, min: 127.47, max: 169.63
+empeine_der average: 142.90, min: 123.64, max: 149.79
+
+Pose: tercera_derecha_plie_perfil_correcta
+axila_izq average: 49.33, min: 49.33, max: 49.33
+axila_der average: 47.10, min: 47.10, max: 47.10
+codo_izq average: 125.22, min: 125.22, max: 125.22
+codo_der average: 118.29, min: 118.29, max: 118.29
+muñeca_izq average: 169.82, min: 169.82, max: 169.82
+muñeca_der average: 173.30, min: 173.30, max: 173.30
+ingle_izq average: 91.64, min: 91.64, max: 91.64
+ingle_der average: 93.44, min: 93.44, max: 93.44
+rodilla_izq average: 146.69, min: 146.69, max: 146.69
+rodilla_der average: 142.21, min: 142.21, max: 142.21
+empeine_izq average: 115.59, min: 115.59, max: 115.59
+empeine_der average: 113.08, min: 113.08, max: 113.08
+
+Pose: tercera_derecha_normal_incorrecta
+axila_izq average: 47.31, min: 7.63, max: 88.67
+axila_der average: 46.30, min: 12.05, max: 83.96
+codo_izq average: 103.89, min: 0.48, max: 172.62
+codo_der average: 106.13, min: 0.73, max: 164.53
+muñeca_izq average: 162.55, min: 135.40, max: 178.68
+muñeca_der average: 163.78, min: 131.95, max: 179.01
+ingle_izq average: 93.76, min: 80.25, max: 112.47
+ingle_der average: 76.83, min: 64.47, max: 85.95
+rodilla_izq average: 176.77, min: 171.01, max: 179.65
+rodilla_der average: 176.39, min: 173.04, max: 179.38
+empeine_izq average: 136.82, min: 106.76, max: 169.87
+empeine_der average: 132.87, min: 120.32, max: 143.74
+
+Pose: battement_derecha_segunda_incorrecta
+axila_izq average: 112.71, min: 98.65, max: 126.06
+axila_der average: 87.65, min: 74.74, max: 99.84
+codo_izq average: 154.93, min: 141.31, max: 164.81
+codo_der average: 158.75, min: 144.86, max: 177.23
+muñeca_izq average: 172.36, min: 166.07, max: 178.84
+muñeca_der average: 171.05, min: 160.34, max: 179.75
+ingle_izq average: 122.98, min: 115.39, max: 127.89
+ingle_der average: 160.85, min: 142.79, max: 176.18
+rodilla_izq average: 176.42, min: 173.42, max: 179.49
+rodilla_der average: 175.93, min: 171.29, max: 179.92
+empeine_izq average: 150.95, min: 144.65, max: 162.31
+empeine_der average: 151.72, min: 146.92, max: 156.93
+
+Pose: zprimera_incorrecta
+axila_izq average: 31.32, min: 31.32, max: 31.32
+axila_der average: 12.37, min: 12.37, max: 12.37
+codo_izq average: 165.88, min: 165.88, max: 165.88
+codo_der average: 120.50, min: 120.50, max: 120.50
+muñeca_izq average: 136.74, min: 136.74, max: 136.74
+muñeca_der average: 163.54, min: 163.54, max: 163.54
+ingle_izq average: 84.82, min: 84.82, max: 84.82
+ingle_der average: 88.28, min: 88.28, max: 88.28
+rodilla_izq average: 179.74, min: 179.74, max: 179.74
+rodilla_der average: 176.63, min: 176.63, max: 176.63
+empeine_izq average: 113.15, min: 113.15, max: 113.15
+empeine_der average: 171.83, min: 171.83, max: 171.83
+
+Pose: cudepie_derecha_front_incorrecta
+axila_izq average: 42.63, min: 33.99, max: 70.79
+axila_der average: 39.45, min: 30.16, max: 62.24
+codo_izq average: 98.12, min: 12.06, max: 127.01
+codo_der average: 100.72, min: 11.58, max: 134.04
+muñeca_izq average: 152.81, min: 145.30, max: 174.03
+muñeca_der average: 148.57, min: 136.15, max: 171.14
+ingle_izq average: 84.80, min: 80.84, max: 87.82
+ingle_der average: 123.89, min: 118.60, max: 128.54
+rodilla_izq average: 176.87, min: 174.62, max: 178.96
+rodilla_der average: 105.79, min: 102.14, max: 111.34
+empeine_izq average: 149.93, min: 137.48, max: 166.47
+empeine_der average: 149.13, min: 142.60, max: 158.66
+
+Pose: primera_centro_normal_frente_correcta
+axila_izq average: 23.11, min: 16.91, max: 27.97
+axila_der average: 20.11, min: 12.80, max: 26.25
+codo_izq average: 142.47, min: 132.29, max: 153.22
+codo_der average: 145.30, min: 135.63, max: 159.28
+muñeca_izq average: 149.55, min: 138.93, max: 164.55
+muñeca_der average: 150.27, min: 142.55, max: 155.69
+ingle_izq average: 88.63, min: 84.47, max: 91.97
+ingle_der average: 88.19, min: 80.62, max: 94.25
+rodilla_izq average: 177.47, min: 176.53, max: 178.44
+rodilla_der average: 175.84, min: 170.43, max: 179.19
+empeine_izq average: 161.45, min: 144.39, max: 175.82
+empeine_der average: 151.68, min: 137.44, max: 160.11
+
+Pose: segunda_centro_plie_perfil_correcta
+axila_izq average: 37.89, min: 22.75, max: 46.79
+axila_der average: 44.03, min: 31.57, max: 52.27
+codo_izq average: 126.75, min: 96.87, max: 170.55
+codo_der average: 130.21, min: 103.23, max: 168.37
+muñeca_izq average: 166.00, min: 156.14, max: 173.02
+muñeca_der average: 172.61, min: 171.73, max: 173.56
+ingle_izq average: 86.45, min: 14.63, max: 139.35
+ingle_der average: 93.11, min: 43.86, max: 166.04
+rodilla_izq average: 97.61, min: 72.52, max: 126.30
+rodilla_der average: 104.49, min: 88.43, max: 122.49
+empeine_izq average: 104.33, min: 94.64, max: 115.99
+empeine_der average: 99.97, min: 82.98, max: 112.98
+
+Pose: segunda_centro_plie_frente_correcta
+axila_izq average: 82.61, min: 81.10, max: 84.12
+axila_der average: 75.85, min: 74.54, max: 77.16
+codo_izq average: 162.12, min: 153.94, max: 170.29
+codo_der average: 161.27, min: 156.65, max: 165.89
+muñeca_izq average: 147.43, min: 125.05, max: 169.80
+muñeca_der average: 152.92, min: 130.33, max: 175.50
+ingle_izq average: 130.81, min: 128.78, max: 132.85
+ingle_der average: 123.55, min: 119.01, max: 128.08
+rodilla_izq average: 130.40, min: 124.04, max: 136.77
+rodilla_der average: 137.06, min: 129.31, max: 144.81
+empeine_izq average: 115.39, min: 112.75, max: 118.03
+empeine_der average: 116.19, min: 113.26, max: 119.12
+
+Pose: primera_centro_normal_perfil_correcta
+axila_izq average: 6.21, min: 1.04, max: 10.42
+axila_der average: 13.08, min: 4.89, max: 23.35
+codo_izq average: 159.42, min: 154.58, max: 162.07
+codo_der average: 167.52, min: 158.11, max: 179.81
+muñeca_izq average: 173.00, min: 161.21, max: 177.36
+muñeca_der average: 168.99, min: 158.00, max: 176.86
+ingle_izq average: 97.01, min: 84.48, max: 127.97
+ingle_der average: 80.93, min: 53.21, max: 96.69
+rodilla_izq average: 175.26, min: 163.30, max: 179.61
+rodilla_der average: 173.95, min: 163.66, max: 178.35
+empeine_izq average: 104.70, min: 100.40, max: 110.21
+empeine_der average: 111.41, min: 98.55, max: 125.48
+
+Pose: segunda_centro_releve_incorrecta
+axila_izq average: 84.41, min: 80.68, max: 88.13
+axila_der average: 82.77, min: 80.70, max: 84.84
+codo_izq average: 153.68, min: 153.33, max: 154.03
+codo_der average: 156.15, min: 155.49, max: 156.82
+muñeca_izq average: 174.30, min: 172.39, max: 176.22
+muñeca_der average: 178.59, min: 177.73, max: 179.44
+ingle_izq average: 96.70, min: 95.47, max: 97.92
+ingle_der average: 95.41, min: 94.31, max: 96.52
+rodilla_izq average: 177.35, min: 176.31, max: 178.40
+rodilla_der average: 178.23, min: 176.91, max: 179.55
+empeine_izq average: 174.34, min: 172.30, max: 176.38
+empeine_der average: 174.84, min: 169.93, max: 179.75
+
+Pose: cuarta_derecha_grandplie_perfil_correcta
+axila_izq average: 38.35, min: 17.01, max: 49.79
+axila_der average: 44.31, min: 16.04, max: 67.13
+codo_izq average: 156.43, min: 153.57, max: 158.58
+codo_der average: 158.90, min: 150.61, max: 173.96
+muñeca_izq average: 169.87, min: 165.49, max: 176.70
+muñeca_der average: 153.03, min: 132.94, max: 171.78
+ingle_izq average: 134.80, min: 130.68, max: 137.64
+ingle_der average: 44.35, min: 41.75, max: 49.50
+rodilla_izq average: 35.70, min: 31.13, max: 39.08
+rodilla_der average: 33.78, min: 29.90, max: 36.79
+empeine_izq average: 106.18, min: 99.22, max: 114.79
+empeine_der average: 93.13, min: 86.87, max: 97.73
+
+Pose: segunda_centro_grandplie_incorrecta
+axila_izq average: 60.93, min: 34.23, max: 88.42
+axila_der average: 62.50, min: 34.80, max: 89.38
+codo_izq average: 134.18, min: 97.42, max: 160.35
+codo_der average: 143.53, min: 117.71, max: 166.53
+muñeca_izq average: 159.93, min: 128.27, max: 178.27
+muñeca_der average: 166.08, min: 139.55, max: 177.20
+ingle_izq average: 147.87, min: 128.62, max: 156.40
+ingle_der average: 120.00, min: 35.43, max: 152.18
+rodilla_izq average: 97.33, min: 85.29, max: 121.72
+rodilla_der average: 100.11, min: 92.08, max: 110.83
+empeine_izq average: 103.96, min: 99.49, max: 110.98
+empeine_der average: 103.19, min: 97.06, max: 111.66
+
+Pose: primera_centro_normal_frente_incorrecta
+axila_izq average: 25.23, min: 25.23, max: 25.23
+axila_der average: 25.22, min: 25.22, max: 25.22
+codo_izq average: 152.50, min: 152.50, max: 152.50
+codo_der average: 162.68, min: 162.68, max: 162.68
+muñeca_izq average: 159.13, min: 159.13, max: 159.13
+muñeca_der average: 150.50, min: 150.50, max: 150.50
+ingle_izq average: 85.49, min: 85.49, max: 85.49
+ingle_der average: 89.01, min: 89.01, max: 89.01
+rodilla_izq average: 177.53, min: 177.53, max: 177.53
+rodilla_der average: 179.59, min: 179.59, max: 179.59
+empeine_izq average: 152.93, min: 152.93, max: 152.93
+empeine_der average: 142.82, min: 142.82, max: 142.82
+
+Pose: tercera_derecha_normal_perfil_correcta
+axila_izq average: 7.46, min: 7.46, max: 7.46
+axila_der average: 20.94, min: 20.94, max: 20.94
+codo_izq average: 162.64, min: 162.64, max: 162.64
+codo_der average: 178.45, min: 178.45, max: 178.45
+muñeca_izq average: 170.84, min: 170.84, max: 170.84
+muñeca_der average: 172.26, min: 172.26, max: 172.26
+ingle_izq average: 100.36, min: 100.36, max: 100.36
+ingle_der average: 78.54, min: 78.54, max: 78.54
+rodilla_izq average: 168.69, min: 168.69, max: 168.69
+rodilla_der average: 171.56, min: 171.56, max: 171.56
+empeine_izq average: 109.07, min: 109.07, max: 109.07
+empeine_der average: 118.27, min: 118.27, max: 118.27
+
+Pose: primera_centro_plie_perfil_correcta
+axila_izq average: 11.47, min: 11.11, max: 11.90
+axila_der average: 16.71, min: 10.74, max: 20.90
+codo_izq average: 167.78, min: 164.50, max: 169.80
+codo_der average: 162.62, min: 153.61, max: 167.35
+muñeca_izq average: 174.44, min: 170.86, max: 177.59
+muñeca_der average: 174.21, min: 171.33, max: 176.34
+ingle_izq average: 99.43, min: 88.70, max: 120.76
+ingle_der average: 78.94, min: 57.58, max: 89.90
+rodilla_izq average: 122.62, min: 119.30, max: 126.54
+rodilla_der average: 120.12, min: 115.75, max: 123.68
+empeine_izq average: 95.08, min: 87.12, max: 109.47
+empeine_der average: 99.70, min: 88.07, max: 121.57
+
+Pose: segunda_centro_grandplie_perfil_correcta
+axila_izq average: 109.91, min: 109.91, max: 109.91
+axila_der average: 90.86, min: 90.86, max: 90.86
+codo_izq average: 168.94, min: 168.94, max: 168.94
+codo_der average: 157.97, min: 157.97, max: 157.97
+muñeca_izq average: 174.36, min: 174.36, max: 174.36
+muñeca_der average: 136.60, min: 136.60, max: 136.60
+ingle_izq average: 132.80, min: 132.80, max: 132.80
+ingle_der average: 41.36, min: 41.36, max: 41.36
+rodilla_izq average: 118.45, min: 118.45, max: 118.45
+rodilla_der average: 114.23, min: 114.23, max: 114.23
+empeine_izq average: 102.07, min: 102.07, max: 102.07
+empeine_der average: 106.58, min: 106.58, max: 106.58
+
+Pose: segunda_centro_grandplie_frente_correcta
+axila_izq average: 85.28, min: 83.85, max: 86.70
+axila_der average: 85.50, min: 84.21, max: 86.79
+codo_izq average: 153.73, min: 149.04, max: 158.43
+codo_der average: 159.93, min: 153.77, max: 166.09
+muñeca_izq average: 175.35, min: 172.42, max: 178.28
+muñeca_der average: 174.67, min: 173.29, max: 176.06
+ingle_izq average: 152.33, min: 144.54, max: 160.12
+ingle_der average: 150.21, min: 144.38, max: 156.04
+rodilla_izq average: 103.19, min: 97.13, max: 109.25
+rodilla_der average: 100.55, min: 99.56, max: 101.55
+empeine_izq average: 126.75, min: 103.34, max: 150.15
+empeine_der average: 120.54, min: 97.74, max: 143.33
+
+Pose: primera_centro_grandplie_incorrecta
+axila_izq average: 22.48, min: 22.08, max: 22.88
+axila_der average: 29.51, min: 27.03, max: 32.00
+codo_izq average: 166.79, min: 164.99, max: 168.60
+codo_der average: 163.60, min: 158.52, max: 168.68
+muñeca_izq average: 173.32, min: 167.53, max: 179.10
+muñeca_der average: 170.96, min: 169.11, max: 172.81
+ingle_izq average: 137.82, min: 129.33, max: 146.31
+ingle_der average: 40.02, min: 29.26, max: 50.78
+rodilla_izq average: 61.08, min: 54.45, max: 67.71
+rodilla_der average: 59.38, min: 52.09, max: 66.67
+empeine_izq average: 99.10, min: 98.22, max: 99.98
+empeine_der average: 95.44, min: 93.37, max: 97.50
+
+Pose: primera_centro_grandplie_perfil_correcta
+axila_izq average: 36.10, min: 36.10, max: 36.10
+axila_der average: 44.39, min: 44.39, max: 44.39
+codo_izq average: 159.34, min: 159.34, max: 159.34
+codo_der average: 166.49, min: 166.49, max: 166.49
+muñeca_izq average: 162.73, min: 162.73, max: 162.73
+muñeca_der average: 165.30, min: 165.30, max: 165.30
+ingle_izq average: 119.37, min: 119.37, max: 119.37
+ingle_der average: 61.77, min: 61.77, max: 61.77
+rodilla_izq average: 82.57, min: 82.57, max: 82.57
+rodilla_der average: 79.21, min: 79.21, max: 79.21
+empeine_izq average: 90.05, min: 90.05, max: 90.05
+empeine_der average: 79.09, min: 79.09, max: 79.09
+
+Pose: tercera_derecha_grandplie_incorrecta
+axila_izq average: 29.06, min: 29.06, max: 29.06
+axila_der average: 30.26, min: 30.26, max: 30.26
+codo_izq average: 158.42, min: 158.42, max: 158.42
+codo_der average: 157.47, min: 157.47, max: 157.47
+muñeca_izq average: 176.92, min: 176.92, max: 176.92
+muñeca_der average: 175.06, min: 175.06, max: 175.06
+ingle_izq average: 148.76, min: 148.76, max: 148.76
+ingle_der average: 25.66, min: 25.66, max: 25.66
+rodilla_izq average: 43.49, min: 43.49, max: 43.49
+rodilla_der average: 41.64, min: 41.64, max: 41.64
+empeine_izq average: 114.42, min: 114.42, max: 114.42
+empeine_der average: 74.59, min: 74.59, max: 74.59
+
+Difference for axila_izq in primera_centro_normal_frente_incorrecta: 9.19%
+Difference for axila_der in primera_centro_normal_frente_incorrecta: 25.37%
+Difference for codo_izq in primera_centro_normal_frente_incorrecta: 7.04%
+Difference for codo_der in primera_centro_normal_frente_incorrecta: 11.96%
+Difference for muñeca_izq in primera_centro_normal_frente_incorrecta: 6.40%
+Difference for muñeca_der in primera_centro_normal_frente_incorrecta: 0.15%
+Difference for ingle_izq in primera_centro_normal_frente_incorrecta: 3.54%
+Difference for ingle_der in primera_centro_normal_frente_incorrecta: 0.93%
+Difference for rodilla_izq in primera_centro_normal_frente_incorrecta: 0.03%
+Difference for rodilla_der in primera_centro_normal_frente_incorrecta: 2.13%
+Difference for empeine_izq in primera_centro_normal_frente_incorrecta: 5.28%
+Difference for empeine_der in primera_centro_normal_frente_incorrecta: 5.84%
+
+General percentage of error across all poses: 6.49%
+
+Process finished with exit code 0

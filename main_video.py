@@ -10,7 +10,7 @@ def create_connection():
     return sqlite3.connect('danzai.db')
 
 
-def find_pose(angles):
+def find_pose(current_angles):
     conn = create_connection()
     cursor = conn.cursor()
     # query anterior
@@ -31,6 +31,8 @@ def find_pose(angles):
           AND (min_right_foot <= ? AND right_foot >= ?);
     """
     '''
+
+    # query funcional actual
     query = """
             SELECT pose, side, variation, camera_angle
             FROM posturas
@@ -48,26 +50,27 @@ def find_pose(angles):
               AND (? BETWEEN min_right_foot AND right_foot OR ? BETWEEN right_foot AND min_right_foot)
         """
 
-
     cursor.execute(query, (
-        angles['axila_izq'], angles['axila_izq'],
-        angles['axila_der'], angles['axila_der'],
-        angles['codo_izq'], angles['codo_izq'],
-        angles['codo_der'], angles['codo_der'],
-        angles['muñeca_izq'], angles['muñeca_izq'],
-        angles['muñeca_der'], angles['muñeca_der'],
-        angles['ingle_izq'], angles['ingle_izq'],
-        angles['ingle_der'], angles['ingle_der'],
-        angles['rodilla_izq'], angles['rodilla_izq'],
-        angles['rodilla_der'], angles['rodilla_der'],
-        angles['empeine_izq'], angles['empeine_izq'],
-        angles['empeine_der'], angles['empeine_der']
+        current_angles['axila_izq'], current_angles['axila_izq'],
+        current_angles['axila_der'], current_angles['axila_der'],
+        current_angles['codo_izq'], current_angles['codo_izq'],
+        current_angles['codo_der'], current_angles['codo_der'],
+        current_angles['muñeca_izq'], current_angles['muñeca_izq'],
+        current_angles['muñeca_der'], current_angles['muñeca_der'],
+        current_angles['ingle_izq'], current_angles['ingle_izq'],
+        current_angles['ingle_der'], current_angles['ingle_der'],
+        current_angles['rodilla_izq'], current_angles['rodilla_izq'],
+        current_angles['rodilla_der'], current_angles['rodilla_der'],
+        current_angles['empeine_izq'], current_angles['empeine_izq'],
+        current_angles['empeine_der'], current_angles['empeine_der']
     ))
-    results = cursor.fetchall()
+
+    query_result = cursor.fetchall()
+
     conn.close()
-    if results:
-        print("Detected Pose:", results[0])
-    return results
+    if query_result:
+        print("Detected Pose:", query_result[0])
+    return query_result
 
 cap = cv2.VideoCapture(0)  # Abre la cámara de video
 
